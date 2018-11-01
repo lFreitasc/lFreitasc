@@ -6,7 +6,7 @@ Deve possuir as sessões:
 
 Menu Fixado com âncoras para as sessões do site; 
 [v] Foto e Mini-biografia;
-# Colocar no nav -> Link para download do seu currículo em PDF;
+[v] Colocar no nav -> Link para download do seu currículo em PDF;
 Seção de detalhes:
 - Interesses;
 - Idiomas;
@@ -18,13 +18,13 @@ Portfólio com alguns projetos que já executou (se não existir, usar os trabal
 Mais informações
 Biografia completa;
 Resenha do seu contato com a profissão;
-Link para o seu GitHub;
+[v] Link para o seu GitHub;
 Formulário de Contato (para enviar https://formspree.io) ;
     Nome;
     Email;
     Assunto;
     Mensagem;
-Links para as redes sociais;
+[v] Links para as redes sociais;
 Rodapé;
 Um exemplo pode ser visto em: http://www.diogocezar.com
 
