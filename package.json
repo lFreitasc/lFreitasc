@@ -1,7 +1,7 @@
 {
   "name": "lucas-freitas",
   "version": "1.0.0",
-  "homepage": "https://lfreitasc.github.io/lfreitasc/",
+  "homepage": "https://lfreitasc.github.io/",
   "description": "Portfólio pessoal utilizando ReactJS.",
   "main": "index.js",
   "scripts": {
