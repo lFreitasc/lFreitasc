@@ -1,25 +1,26 @@
 import React from 'react';
 import Profile from '../../images/profile.jpg';
 import './index.css';
+import Ingles from '../ingles.pdf';
 
 const Carousel = () => {
     return(
-        <div class="container-fluid">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <div className="container-fluid">
+            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                <ol className="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-6 d-none d-md-block">
-                            <img class="rounded-circle mx-auto d-block" src={Profile} alt="autor na temática game of thrones" title="the deadline is coming"></img>
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <div className="row align-items-center">
+                        <div className="col-lg-4 col-md-6 d-none d-md-block">
+                            <img className="rounded-circle mx-auto d-block" src={Profile} alt="autor na temática game of thrones" title="the deadline is coming"></img>
                         </div>
-                        <div class="col-lg-8 col-md-6">
-                            <h2 class="text-center">Sobre</h2>
+                        <div className="col-lg-8 col-md-6">
+                            <h3>Sobre</h3>
                                 <h5>Estudante de Software</h5>
                                 <p>6º Periodo</p>
                                 <h5>UTFPR - Campus Cornélio Procópio</h5>
@@ -33,58 +34,66 @@ const Carousel = () => {
                         </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        
-                        <div class="col">
-                            <h2 class="text-center">Experiencias</h2>
-                            <h5 class="text-center">Diretório Acadêmico de Computação</h5>
-                            <p class="text-center">Vice-Diretor Financeiro 2/2016 ~ 2/2018</p>
-                            <h5 class="text-center">UTF GameJam</h5>
-                            <p class="text-center">Segundo Lugar (2016 e 2017)</p>
+                    <div className="carousel-item">
+                    <div className="row align-itens-center">
+                        <div className="col-md-6">
+                            <h3>Experiencias</h3>
+                            <br></br>
+                            <h5>Diretório Acadêmico de Computação</h5>
+                            <p>Vice-Diretor Financeiro 2/2016 ~ 2/2018</p>
+                            <h5>UTF GameJam</h5>
+                            <p>Segundo Lugar (2016 e 2017)</p>
+                        </div>
+                        <div className="col-md-6">
+                            <h3>Conhecimentos</h3>
+                            <br></br>
+                            <h5>Inglês Avançado</h5>
+                            <a href={Ingles} className="badge badge-light" download>Referencia</a>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <h2 class="text-center">Técnologias</h2>
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <p class="text-center">C</p>
-                                <p class="text-center">Java</p>
-                                <p class="text-center">HTML5/CSS3</p>
-                                <p class="text-center">JavaScript</p>
+                    </div>
+                    <div className="carousel-item">
+                        <h3 className="text-center">Técnologias</h3>
+                        <div className="row align-items-center">
+                            <div className="col-md-6">
+                                <p>C</p>
+                                <p>Java</p>
+                                <p>HTML5/CSS3</p>
+                                <p>JavaScript</p>
                             </div>
-                            <div class="col-md-6">
-                                <p class="text-center">C# (Unity)</p>
-                                <p class="text-center">Python</p>
-                                <p class="text-center">MySQL</p>
+                            <div className="col-md-6">
+                                <p>C# (Unity)</p>
+                                <p>Python</p>
+                                <p>MySQL</p>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <h5 class="text-center">Projetos Academicos</h5>
+                    <div className="row align-items-center">
+                        <div className="col-md-6">
+                            <h3>Projetos Academicos</h3>
                             <br></br>
-                            <h5 class="text-center">Notapp</h5>
-                            <p class="text-center">Oferece ao usuário maior controle na gerencia de suas notas</p>
+                            <h5>Notapp</h5>
+                            <p>Oferece ao usuário maior controle na gerencia de suas notas</p>
                         </div>
-                        <div class="col-md-6">
-                            <h5 class="text-center">Projetos Pessoais</h5>
+                        <div className="col-md-6">
+                            <h3>Projetos Pessoais</h3>
                             <br></br>
-                            <h5 class="text-center">Simulador de investimenos</h5>
-                            <p class="text-center">Não finalizado, permite que o usuario simule investimenos e impostos</p>
+                            <h5>Simulador de investimenos</h5>
+                            <p>Não finalizado, permite que o usuario simule investimenos e impostos</p>
                         </div>
                     </div>
 
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
                 </a>
             </div>
         </div>

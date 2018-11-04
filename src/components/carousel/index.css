@@ -3,3 +3,11 @@
     padding-left: 75px;
     padding-right: 75px;
 }
+
+.col-md-6{
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
