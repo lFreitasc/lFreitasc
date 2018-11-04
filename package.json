@@ -8,11 +8,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "^2.0.5",
@@ -32,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/lFreitasc/lFreitasc/issues"
   },
-  "homepage": "https://github.com/lFreitasc/lFreitasc#readme"
+  "homepage": "https://github.com/lFreitasc/lFreitasc"
 }
