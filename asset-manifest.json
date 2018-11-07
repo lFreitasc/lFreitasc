@@ -1,7 +1,7 @@
 {
   "main.css": "/lFreitasc/static/css/main.102e416b.chunk.css",
-  "main.js": "/lFreitasc/static/js/main.80c8ffb8.chunk.js",
-  "main.js.map": "/lFreitasc/static/js/main.80c8ffb8.chunk.js.map",
+  "main.js": "/lFreitasc/static/js/main.a33e015a.chunk.js",
+  "main.js.map": "/lFreitasc/static/js/main.a33e015a.chunk.js.map",
   "static/js/1.c22fca6b.chunk.js": "/lFreitasc/static/js/1.c22fca6b.chunk.js",
   "static/js/1.c22fca6b.chunk.js.map": "/lFreitasc/static/js/1.c22fca6b.chunk.js.map",
   "runtime~main.js": "/lFreitasc/static/js/runtime~main.4a40da6b.js",
@@ -15,6 +15,6 @@
   "static/media/facebook.svg": "/lFreitasc/static/media/facebook.17f187b1.svg",
   "static/css/main.102e416b.chunk.css.map": "/lFreitasc/static/css/main.102e416b.chunk.css.map",
   "index.html": "/lFreitasc/index.html",
-  "precache-manifest.45a0c2b264711a3e62e61329c6f2c70d.js": "/lFreitasc/precache-manifest.45a0c2b264711a3e62e61329c6f2c70d.js",
+  "precache-manifest.de6b5f17af47daae17157c6fd854bc19.js": "/lFreitasc/precache-manifest.de6b5f17af47daae17157c6fd854bc19.js",
   "service-worker.js": "/lFreitasc/service-worker.js"
 }

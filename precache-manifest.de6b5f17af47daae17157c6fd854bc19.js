@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/lFreitasc/static/media/github.76d344f0.svg"
   },
   {
-    "revision": "80c8ffb8d3a02b3454fd",
+    "revision": "a33e015a5e4918f5d55c",
     "url": "/lFreitasc/static/css/main.102e416b.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/lFreitasc/static/media/facebook.17f187b1.svg"
   },
   {
-    "revision": "80c8ffb8d3a02b3454fd",
-    "url": "/lFreitasc/static/js/main.80c8ffb8.chunk.js"
+    "revision": "a33e015a5e4918f5d55c",
+    "url": "/lFreitasc/static/js/main.a33e015a.chunk.js"
   },
   {
     "revision": "753c8e94a41718a5d026c21ba5af7264",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/lFreitasc/static/media/bazar.6bef3114.jpg"
   },
   {
-    "revision": "344b976959cb3a60521d8b3dd679e27d",
+    "revision": "9baee769be8508f1487d1f5b2f8192ae",
     "url": "/lFreitasc/index.html"
   }
 ];
