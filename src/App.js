@@ -4,6 +4,8 @@ import Carousel from './components/carousel';
 import Portfolio from './components/portfolio';
 import News from './components/news';
 import Form from './components/formContato';
+import Footer from './components/footer';
+import Biography from './components/biography';
 
 class App extends Component {
   render() {
@@ -13,7 +15,9 @@ class App extends Component {
           <Carousel></Carousel>
           <Portfolio></Portfolio>
           <News></News>
+          <Biography></Biography>
           <Form></Form>
+          <Footer></Footer>
       </Fragment>
     );
   }

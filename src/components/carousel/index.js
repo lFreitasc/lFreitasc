@@ -5,7 +5,7 @@ import Ingles from '../ingles.pdf';
 
 const Carousel = () => {
     return(
-        <div className="container-fluid">
+        <div className="container-fluid" id="about">
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -53,7 +53,7 @@ const Carousel = () => {
                     </div>
                     </div>
                     <div className="carousel-item">
-                        <h3 className="text-center">Técnologias</h3>
+                        <h3 className="text-center">Tecnologias</h3>
                         <div className="row align-items-center">
                             <div className="col-md-6">
                                 <p>C</p>
