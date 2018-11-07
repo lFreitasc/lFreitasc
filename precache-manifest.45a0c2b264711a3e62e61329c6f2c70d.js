@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "17f187b1bb2d16dcbc673e3221a56fcc",
-    "url": "/lFreitasc/static/media/facebook.17f187b1.svg"
+    "revision": "76d344f08412543c74ccd1fb2493d607",
+    "url": "/lFreitasc/static/media/github.76d344f0.svg"
   },
   {
-    "revision": "6e7f09a1e1c7e13ef049",
-    "url": "/lFreitasc/static/css/main.ad87930a.chunk.css"
+    "revision": "80c8ffb8d3a02b3454fd",
+    "url": "/lFreitasc/static/css/main.102e416b.chunk.css"
   },
   {
-    "revision": "bf75b54e4abb4361c5e3",
-    "url": "/lFreitasc/static/js/1.bf75b54e.chunk.js"
+    "revision": "c22fca6ba4277c3146a6",
+    "url": "/lFreitasc/static/js/1.c22fca6b.chunk.js"
   },
   {
     "revision": "4a40da6b55919c7b0ea8",
@@ -20,16 +20,12 @@ self.__precacheManifest = [
     "url": "/lFreitasc/static/media/cv.0cc2f260.pdf"
   },
   {
-    "revision": "add0c81660c3ba53de361fcace6fb4ac",
-    "url": "/lFreitasc/static/media/curriculum.add0c816.svg"
+    "revision": "17f187b1bb2d16dcbc673e3221a56fcc",
+    "url": "/lFreitasc/static/media/facebook.17f187b1.svg"
   },
   {
-    "revision": "6e7f09a1e1c7e13ef049",
-    "url": "/lFreitasc/static/js/main.6e7f09a1.chunk.js"
-  },
-  {
-    "revision": "76d344f08412543c74ccd1fb2493d607",
-    "url": "/lFreitasc/static/media/github.76d344f0.svg"
+    "revision": "80c8ffb8d3a02b3454fd",
+    "url": "/lFreitasc/static/js/main.80c8ffb8.chunk.js"
   },
   {
     "revision": "753c8e94a41718a5d026c21ba5af7264",
@@ -48,7 +44,7 @@ self.__precacheManifest = [
     "url": "/lFreitasc/static/media/bazar.6bef3114.jpg"
   },
   {
-    "revision": "01c35539b007742f0d789fc3e7bb44eb",
+    "revision": "344b976959cb3a60521d8b3dd679e27d",
     "url": "/lFreitasc/index.html"
   }
 ];
